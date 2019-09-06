@@ -1,5 +1,10 @@
 body {
     background-image: url("efe-kurnaz-RnCPiXixooY-unsplash.jpg");
+    background: url(/img/efe-kurnaz-RnCPiXixooY-unsplash.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .container {
