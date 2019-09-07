@@ -1,5 +1,5 @@
 body {
-    background: url(./img/efe-kurnaz-RnCPiXixooY-unsplash.jpg) no-repeat center center fixed; 
+    background: url(./img/bg.jpg); * no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -11,7 +11,15 @@ body {
     padding: 20px;
     align-items: center;
     color: white;
+    align-items: center;
+}
 
-
+img {
+    max-height: 250px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-top-width: 30px;
+    border-right-width: 30px;
 }
 
