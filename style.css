@@ -1,7 +1,7 @@
 html {
-    background: url(./img/bg.jpg) no-repeat center center fixed;
+    background: url(./img/bg.jpg) no-repeat center fixed black;
+    margin-top: 20px;
     background-size: cover;
-    margin: 20px 200px 20px;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
     padding: 0px 20px 30px;
     background-color: rgb(255,255,255,0.1);
-    width: 500px;
+    width: 640px;
     max-width: 1000px;
     box-shadow: 0px 0px 10px rgb(0,0,0,0.7);
     border-radius: 2%;
@@ -25,6 +25,7 @@ body {
     align-items: center;
     color: white;
 }
+
 .ui-npm {
     margin: auto;
 }
@@ -44,10 +45,22 @@ body {
 .contacts {
     margin: auto;
 }
-.contacts a {
-    margin: 0px 15px;
-}
+
 .contacts img {
     max-width: 50px;
     filter: invert(100%);
+    margin: 0px 15px;
+}
+
+@media only screen and (max-width: 480px) {
+    html {
+        margin: 20px 0px;
+    }
+    body{
+        width: 380px;
+        margin: auto;
+    }
+    .ui-npm img {
+        max-width: 175px;
+    }
 }
